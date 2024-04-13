@@ -105,27 +105,12 @@ $(function() { codefold.init(0); });
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    };</div>
 </div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="comment">/*</span></div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="comment">    Struct to hold a Renderable Component</span></div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="comment">    */</span></div>
 <div class="foldopen" id="foldopen00040" data-start="{" data-end="};">
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="struct_macgyver_1_1_components_1_1_renderable.html">   40</a></span>    <span class="keyword">struct </span><a class="code hl_struct" href="struct_macgyver_1_1_components_1_1_renderable.html">Renderable</a> {</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        COMPONENT_TYPE flags = RENDERABLE;</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        <span class="comment">/*</span></div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="comment">        Renderables update method, does nothing.</span></div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="comment"></span> </div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="comment">        @param self pointer to the Component which the renderable is part of</span></div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="comment">        @param deltaTime time in milliseconds since last frame and this one</span></div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="comment">        */</span></div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        <span class="keyword">static</span> <span class="keywordtype">void</span> update(<a class="code hl_class" href="class_macgyver_1_1_gameobjects_1_1_component.html">Gameobjects::Component</a>* self, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> deltaTime);</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="struct_macgyver_1_1_components_1_1_renderable.html#a69a0b6c28d5245eedbeab5182335161c">update</a>(<a class="code hl_class" href="class_macgyver_1_1_gameobjects_1_1_component.html">Gameobjects::Component</a>* self, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> deltaTime);</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        <span class="comment">/*</span></div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="comment">        Attaches a new Renderable to an existing Component.</span></div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="comment">        Note: a Component should only have one thing attached to it</span></div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="comment"></span> </div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="comment">        @param comp pointer to the component to attach the Renderable to</span></div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="comment">        */</span></div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        <span class="keyword">static</span> <span class="keywordtype">void</span> AttachNew(<a class="code hl_class" href="class_macgyver_1_1_gameobjects_1_1_component.html">Gameobjects::Component</a>* comp, std::string path, <span class="keywordtype">int</span> width, <span class="keywordtype">int</span> height);</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="struct_macgyver_1_1_components_1_1_renderable.html#a8475f4b822e787edbb8437ea0b89b504">AttachNew</a>(<a class="code hl_class" href="class_macgyver_1_1_gameobjects_1_1_component.html">Gameobjects::Component</a>* comp, std::string path, <span class="keywordtype">int</span> width, <span class="keywordtype">int</span> height);</div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    };</div>
 </div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>}</div>
@@ -136,6 +121,8 @@ $(function() { codefold.init(0); });
 <div class="ttc" id="astruct_macgyver_1_1_components_1_1_renderable_data_html_ab7574cbff921436361e6d5628debc1b8"><div class="ttname"><a href="struct_macgyver_1_1_components_1_1_renderable_data.html#ab7574cbff921436361e6d5628debc1b8">Macgyver::Components::RenderableData::~RenderableData</a></div><div class="ttdeci">~RenderableData()</div><div class="ttdef"><b>Definition</b> Renderable.cpp:23</div></div>
 <div class="ttc" id="astruct_macgyver_1_1_components_1_1_renderable_data_html_ac7a0d6e566536c113c4e268da8e53e0e"><div class="ttname"><a href="struct_macgyver_1_1_components_1_1_renderable_data.html#ac7a0d6e566536c113c4e268da8e53e0e">Macgyver::Components::RenderableData::rect</a></div><div class="ttdeci">SDL_Rect rect</div><div class="ttdef"><b>Definition</b> Renderable.h:34</div></div>
 <div class="ttc" id="astruct_macgyver_1_1_components_1_1_renderable_html"><div class="ttname"><a href="struct_macgyver_1_1_components_1_1_renderable.html">Macgyver::Components::Renderable</a></div><div class="ttdef"><b>Definition</b> Renderable.h:40</div></div>
+<div class="ttc" id="astruct_macgyver_1_1_components_1_1_renderable_html_a69a0b6c28d5245eedbeab5182335161c"><div class="ttname"><a href="struct_macgyver_1_1_components_1_1_renderable.html#a69a0b6c28d5245eedbeab5182335161c">Macgyver::Components::Renderable::update</a></div><div class="ttdeci">static void update(Gameobjects::Component *self, unsigned int deltaTime)</div><div class="ttdef"><b>Definition</b> Renderable.cpp:31</div></div>
+<div class="ttc" id="astruct_macgyver_1_1_components_1_1_renderable_html_a8475f4b822e787edbb8437ea0b89b504"><div class="ttname"><a href="struct_macgyver_1_1_components_1_1_renderable.html#a8475f4b822e787edbb8437ea0b89b504">Macgyver::Components::Renderable::AttachNew</a></div><div class="ttdeci">static void AttachNew(Gameobjects::Component *comp, std::string path, int width, int height)</div><div class="ttdef"><b>Definition</b> Renderable.cpp:36</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

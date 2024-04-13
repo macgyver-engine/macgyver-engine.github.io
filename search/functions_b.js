@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['scalarmultiply_0',['scalarMultiply',['../class_macgyver_1_1_math_1_1_force2_d.html#a5cdc9621ffb56d4cc2750fc6a2abc5e2',1,'Macgyver::Math::Force2D']]],
-  ['scaletomagnitude_1',['scaleToMagnitude',['../class_macgyver_1_1_math_1_1_force2_d.html#aa4b8fb91dd09c33145a4ec90f6acdc20',1,'Macgyver::Math::Force2D']]],
-  ['scene_2',['Scene',['../class_macgyver_1_1_gameobjects_1_1_scene.html#a889f0b8df198aad297ded0d4546a2aad',1,'Macgyver::Gameobjects::Scene']]],
-  ['setcomponentproperties_3',['setComponentProperties',['../class_macgyver_1_1_gameobjects_1_1_component.html#a0123c164d78ecafbc08686b110997915',1,'Macgyver::Gameobjects::Component']]]
+  ['removefontusage_0',['removeFontUsage',['../class_macgyver_1_1_u_i_1_1_text_renderer.html#a634878bf3e7bbcbe0b68a70fb12d6849',1,'Macgyver::UI::TextRenderer']]],
+  ['removescene_1',['removeScene',['../class_macgyver_1_1_gameobjects_1_1_scene_manager.html#a74ae74105fb8d8b3a207b1bb2677fb37',1,'Macgyver::Gameobjects::SceneManager']]],
+  ['removeusage_2',['removeUsage',['../class_macgyver_1_1_u_i_1_1_font.html#a599bacd8d14f93384ae50892c6d959ca',1,'Macgyver::UI::Font']]],
+  ['renderabledata_3',['RenderableData',['../struct_macgyver_1_1_components_1_1_renderable_data.html#ab605b4de043fad1fd600feb1d07f2a23',1,'Macgyver::Components::RenderableData']]],
+  ['returnscalarmultiply_4',['returnScalarMultiply',['../class_macgyver_1_1_math_1_1_force2_d.html#aa8087e4599a852606436d556b6c4ab56',1,'Macgyver::Math::Force2D']]]
 ];

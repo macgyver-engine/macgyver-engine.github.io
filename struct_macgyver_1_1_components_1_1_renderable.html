@@ -83,14 +83,14 @@ $(function() {
   <div class="headertitle"><div class="title">Macgyver::Components::Renderable Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="_renderable_8h_source.html">Renderable.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a69a0b6c28d5245eedbeab5182335161c" id="r_a69a0b6c28d5245eedbeab5182335161c"><td class="memItemLeft" align="right" valign="top"><a id="a69a0b6c28d5245eedbeab5182335161c" name="a69a0b6c28d5245eedbeab5182335161c"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>update</b> (<a class="el" href="class_macgyver_1_1_gameobjects_1_1_component.html">Gameobjects::Component</a> *self, unsigned int deltaTime)</td></tr>
+<tr class="memitem:a69a0b6c28d5245eedbeab5182335161c" id="r_a69a0b6c28d5245eedbeab5182335161c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69a0b6c28d5245eedbeab5182335161c">update</a> (<a class="el" href="class_macgyver_1_1_gameobjects_1_1_component.html">Gameobjects::Component</a> *self, unsigned int deltaTime)</td></tr>
 <tr class="separator:a69a0b6c28d5245eedbeab5182335161c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8475f4b822e787edbb8437ea0b89b504" id="r_a8475f4b822e787edbb8437ea0b89b504"><td class="memItemLeft" align="right" valign="top"><a id="a8475f4b822e787edbb8437ea0b89b504" name="a8475f4b822e787edbb8437ea0b89b504"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>AttachNew</b> (<a class="el" href="class_macgyver_1_1_gameobjects_1_1_component.html">Gameobjects::Component</a> *comp, std::string path, int width, int height)</td></tr>
+<tr class="memitem:a8475f4b822e787edbb8437ea0b89b504" id="r_a8475f4b822e787edbb8437ea0b89b504"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8475f4b822e787edbb8437ea0b89b504">AttachNew</a> (<a class="el" href="class_macgyver_1_1_gameobjects_1_1_component.html">Gameobjects::Component</a> *comp, std::string path, int width, int height)</td></tr>
 <tr class="separator:a8475f4b822e787edbb8437ea0b89b504"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
@@ -99,6 +99,92 @@ Public Attributes</h2></td></tr>
 COMPONENT_TYPE&#160;</td><td class="memItemRight" valign="bottom"><b>flags</b> = RENDERABLE</td></tr>
 <tr class="separator:a15517c850c17a99eba6398c620e59c28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>( Struct to hold a <a class="el" href="struct_macgyver_1_1_components_1_1_renderable.html">Renderable</a> Component </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a8475f4b822e787edbb8437ea0b89b504" name="a8475f4b822e787edbb8437ea0b89b504"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8475f4b822e787edbb8437ea0b89b504">&#9670;&#160;</a></span>AttachNew()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Components::Renderable::AttachNew </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_macgyver_1_1_gameobjects_1_1_component.html">Gameobjects::Component</a> *</td>          <td class="paramname"><span class="paramname"><em>comp</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>path</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>width</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>height</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Attaches a new <a class="el" href="struct_macgyver_1_1_components_1_1_renderable.html">Renderable</a> to an existing Component. Note: a Component should only have one thing attached to it</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">comp</td><td>pointer to the component to attach the <a class="el" href="struct_macgyver_1_1_components_1_1_renderable.html">Renderable</a> to </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a69a0b6c28d5245eedbeab5182335161c" name="a69a0b6c28d5245eedbeab5182335161c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69a0b6c28d5245eedbeab5182335161c">&#9670;&#160;</a></span>update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Components::Renderable::update </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_macgyver_1_1_gameobjects_1_1_component.html">Gameobjects::Component</a> *</td>          <td class="paramname"><span class="paramname"><em>self</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>deltaTime</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Renderables update method, does nothing.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">self</td><td>pointer to the Component which the renderable is part of </td></tr>
+    <tr><td class="paramname">deltaTime</td><td>time in milliseconds since last frame and this one </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following files:<ul>
 <li>MacGyver/<a class="el" href="_renderable_8h_source.html">Renderable.h</a></li>
 <li>MacGyver/<b>Renderable.cpp</b></li>

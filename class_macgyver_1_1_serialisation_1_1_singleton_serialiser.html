@@ -82,19 +82,104 @@ $(function() {
   <div class="headertitle"><div class="title">Macgyver::Serialisation::SingletonSerialiser Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="_singleton_serialiser_8h_source.html">SingletonSerialiser.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a4d5e0ca66fec2bd8ccd2d0537e4e1edc" id="r_a4d5e0ca66fec2bd8ccd2d0537e4e1edc"><td class="memItemLeft" align="right" valign="top"><a id="a4d5e0ca66fec2bd8ccd2d0537e4e1edc" name="a4d5e0ca66fec2bd8ccd2d0537e4e1edc"></a>
-static std::string&#160;</td><td class="memItemRight" valign="bottom"><b>serialiseMessenger</b> ()</td></tr>
+<tr class="memitem:a4d5e0ca66fec2bd8ccd2d0537e4e1edc" id="r_a4d5e0ca66fec2bd8ccd2d0537e4e1edc"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d5e0ca66fec2bd8ccd2d0537e4e1edc">serialiseMessenger</a> ()</td></tr>
 <tr class="separator:a4d5e0ca66fec2bd8ccd2d0537e4e1edc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6bdc309d909d57bac71f62048476b250" id="r_a6bdc309d909d57bac71f62048476b250"><td class="memItemLeft" align="right" valign="top"><a id="a6bdc309d909d57bac71f62048476b250" name="a6bdc309d909d57bac71f62048476b250"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>deserialiseMessenger</b> (std::string serialised)</td></tr>
+<tr class="memitem:a6bdc309d909d57bac71f62048476b250" id="r_a6bdc309d909d57bac71f62048476b250"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bdc309d909d57bac71f62048476b250">deserialiseMessenger</a> (std::string serialised)</td></tr>
 <tr class="separator:a6bdc309d909d57bac71f62048476b250"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40a57b7f4cc3296a62f40f2ddfb32b6a" id="r_a40a57b7f4cc3296a62f40f2ddfb32b6a"><td class="memItemLeft" align="right" valign="top"><a id="a40a57b7f4cc3296a62f40f2ddfb32b6a" name="a40a57b7f4cc3296a62f40f2ddfb32b6a"></a>
-static std::string&#160;</td><td class="memItemRight" valign="bottom"><b>serialiseAnimations</b> ()</td></tr>
+<tr class="memitem:a40a57b7f4cc3296a62f40f2ddfb32b6a" id="r_a40a57b7f4cc3296a62f40f2ddfb32b6a"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40a57b7f4cc3296a62f40f2ddfb32b6a">serialiseAnimations</a> ()</td></tr>
 <tr class="separator:a40a57b7f4cc3296a62f40f2ddfb32b6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Singleton class for Components to serialise/deserialise data through </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a6bdc309d909d57bac71f62048476b250" name="a6bdc309d909d57bac71f62048476b250"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bdc309d909d57bac71f62048476b250">&#9670;&#160;</a></span>deserialiseMessenger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Macgyver::Serialisation::SingletonSerialiser::deserialiseMessenger </td>
+          <td>(</td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>serialised</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Deserialise the messenger </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">serialised</td><td>JSON string of the messenger with the format: {"size": int n, "values": int64 array length n} </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a40a57b7f4cc3296a62f40f2ddfb32b6a" name="a40a57b7f4cc3296a62f40f2ddfb32b6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40a57b7f4cc3296a62f40f2ddfb32b6a">&#9670;&#160;</a></span>serialiseAnimations()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string Macgyver::Serialisation::SingletonSerialiser::serialiseAnimations </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>TODO: FUNCTION WORK IN PROGRESS Serialise the animations </p><dl class="section return"><dt>Returns</dt><dd>JSON string of the animations </dd></dl>
+
+</div>
+</div>
+<a id="a4d5e0ca66fec2bd8ccd2d0537e4e1edc" name="a4d5e0ca66fec2bd8ccd2d0537e4e1edc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d5e0ca66fec2bd8ccd2d0537e4e1edc">&#9670;&#160;</a></span>serialiseMessenger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string Macgyver::Serialisation::SingletonSerialiser::serialiseMessenger </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Serialise the messenger </p><dl class="section return"><dt>Returns</dt><dd>JSON string of the messenger with the format: {"size": int n, "values": int64 array length n} </dd></dl>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>MacGyver/<a class="el" href="_singleton_serialiser_8h_source.html">SingletonSerialiser.h</a></li>
 <li>MacGyver/<b>SingletonSerialiser.cpp</b></li>
